@@ -45,3 +45,12 @@ This version has no login, database, saved progress or functional search. It foc
 ## Content voice
 
 The guidance uses direct instructions first, `you` where a subject is needed, and `the operator` only where a distinction between the operator and another party is necessary.
+
+
+## Content files
+
+- `js/content-sprint-1.js` contains Home-supported onboarding and marketplace-decision guidance.
+- `js/content-sprint-2.js` contains the four Marketplacer Foundations pages.
+- `js/app.js` contains navigation, rendering and Home-page components.
+
+For larger updates, make changes on a separate Git branch, review the published preview locally, then merge into `main` to update GitHub Pages.
