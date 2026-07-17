@@ -54,3 +54,8 @@ The guidance uses direct instructions first, `you` where a subject is needed, an
 - `js/app.js` contains navigation, rendering and Home-page components.
 
 For larger updates, make changes on a separate Git branch, review the published preview locally, then merge into `main` to update GitHub Pages.
+
+
+## Content Sprint 3
+
+Adds the eight developed pages under **Platform and Environment Setup**, including Production and Sandbox, refreshes, access, permissions, Site Details, emails, SendGrid and configuration guidance.
