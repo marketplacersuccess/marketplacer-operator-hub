@@ -264,6 +264,37 @@ function buildRelated(related = []) {
   `;
 }
 
+function enhanceMarketplacerArticlePanels() {
+  document.querySelectorAll(".content-section h3").forEach(heading => {
+    const title = heading.textContent.trim();
+    if (!/^Related Marketplacer articles?$/i.test(title)) return;
+
+    const panel = document.createElement("aside");
+    panel.className = "marketplacer-articles";
+    panel.setAttribute("aria-label", "Related Marketplacer articles");
+
+    const eyebrow = document.createElement("p");
+    eyebrow.className = "marketplacer-articles-eyebrow";
+    eyebrow.textContent = "Marketplacer Support";
+
+    heading.parentNode.insertBefore(panel, heading);
+    panel.append(eyebrow, heading);
+
+    let sibling = panel.nextSibling;
+    while (sibling) {
+      const nextSibling = sibling.nextSibling;
+      panel.appendChild(sibling);
+      sibling = nextSibling;
+    }
+
+    const list = panel.querySelector("ul");
+    if (list) {
+      list.classList.remove("check-list");
+      list.classList.add("article-link-list");
+    }
+  });
+}
+
 function renderPage() {
   const id = currentPageId();
   if (id === "home") {
@@ -317,6 +348,7 @@ function renderPage() {
     </div>
   `;
 
+  enhanceMarketplacerArticlePanels();
   setupTocObserver();
   scrollToRequestedSection();
 }
