@@ -1,6 +1,6 @@
 # Marketplacer Operator Onboarding Hub
 
-This static prototype contains developed operator guidance for Content Sprints 1 through 7.
+This static prototype contains developed operator guidance for Content Sprints 1 through 8.
 
 ## Developed sections
 
@@ -12,23 +12,22 @@ This static prototype contains developed operator guidance for Content Sprints 1
 6. Marketplace Structure
 7. Seller Strategy and Onboarding
 8. Product and Catalogue Management
+9. Shipping, Orders and Fulfilment
 
 The remaining navigation sections retain representative content or placeholders for later sprints.
 
-## Sprint 7 additions
+## Sprint 8 additions
 
-- Product Model
-- Product Ingestion Methods
-- Bulk Product Management
-- MConnect
-- Mapping
-- Product Source of Truth
-- Product Vetting
-- Catalog Rules
-- Golden Records and Central Product Database
-- Catalogue Quality Operations
-- Updated Payments, Remittances and Wholesale guidance
-- Restored approved Home hero copy
+- Shipping Strategy
+- Shipping Rules
+- Shipping Carriers and Tracking
+- Order Architecture
+- Order Lifecycle
+- Fulfilment and Dispatch
+- Order Exceptions
+- Additional Charges Invoices
+- Test the Order and Fulfilment Flow
+- Shipping section illustration and reusable transaction-structure styling
 
 ## Open locally
 
@@ -39,7 +38,7 @@ Open `index.html` in a modern browser. No build step or database is required.
 - `index.html` application shell
 - `css/styles.css` responsive visual system
 - `js/app.js` navigation and interface behaviour
-- `js/content-sprint-1.js` through `js/content-sprint-7.js` developed content
+- `js/content-sprint-1.js` through `js/content-sprint-8.js` developed content
 - `assets/` Marketplacer logos, favicons and illustrations
 
 ## Typography

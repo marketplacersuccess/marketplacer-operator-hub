@@ -689,6 +689,28 @@ h1 {
   text-decoration: none;
 }
 
+.structure-diagram {
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 18px 20px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  color: var(--ink);
+  background: var(--canvas);
+  box-shadow: var(--shadow-sm);
+}
+
+.structure-diagram code {
+  display: block;
+  min-width: max-content;
+  color: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre;
+}
+
 .code-pill {
   display: inline-block;
   padding: 2px 7px;
