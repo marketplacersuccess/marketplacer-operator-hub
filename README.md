@@ -1,10 +1,10 @@
-# Marketplacer Operator Hub Prototype
+# Marketplacer Operator Onboarding Hub Prototype
 
-This static prototype demonstrates the approved Marketplacer Operator Hub information architecture and developed operator guidance through Content Sprint 5.
+This static prototype demonstrates the approved Marketplacer Operator Onboarding Hub information architecture and developed Operator guidance through Content Sprint 6.
 
 ## Included
 
-- Marketplacer branding and supplied logo assets
+- Marketplacer branding, logo assets and official line-art illustrations
 - Manrope typography with Arial fallback
 - Complete approved two-level left-hand navigation
 - On-page contents menu for third-level sections
@@ -20,6 +20,7 @@ This static prototype demonstrates the approved Marketplacer Operator Hub inform
   - Platform and Environment Setup, 8 pages
   - Commercials, Tax and Marketplace Finance, 8 pages
   - Marketplace Structure, 8 pages
+  - Seller Strategy and Onboarding, 8 pages
 - Existing representative developed pages retained elsewhere in the Hub
 - Content placeholders for later sprints
 - Visual search placeholder only
@@ -32,35 +33,25 @@ Open `index.html` in a modern web browser. No local server, database, login or b
 
 - `index.html` - application shell and content-script loading order
 - `css/styles.css` - responsive design and Marketplacer visual system
-- `js/content-sprint-1.js` - onboarding and marketplace-decision guidance
-- `js/content-sprint-2.js` - Marketplacer Foundations guidance
-- `js/content-sprint-3.js` - Platform and Environment Setup guidance
-- `js/content-sprint-4.js` - Commercials, Tax and Marketplace Finance guidance
-- `js/content-sprint-5.js` - Marketplace Structure guidance
+- `js/content-sprint-1.js` through `js/content-sprint-6.js` - developed guidance
 - `js/app.js` - navigation data, representative content and interface behaviour
-- `assets/` - supplied Marketplacer logos and favicons
+- `assets/` - supplied Marketplacer logos, favicons and illustrations
 
 ## Prototype scope
 
-This version has no login, database, saved progress or functional search. It focuses on navigation, responsive page structure and operator-facing guidance.
+This version has no login, database, saved progress or functional search. It focuses on navigation, responsive page structure and Operator-facing guidance.
 
-## Content voice
+## Content Sprint 6
 
-The guidance uses direct instructions first, `you` where a subject is needed, and `the Operator` only where a distinction between the Operator and another party is necessary.
+Adds the eight developed pages under **Seller Strategy and Onboarding**:
 
-## Publishing updates
+1. Seller Lifecycle
+2. Seller Information to Collect
+3. Seller Account Creation
+4. Default Seller Configuration
+5. Seller Portal
+6. Seller Onboarding Process
+7. Seller Onboarding Support Boundaries
+8. Seller Performance
 
-Make larger updates on a separate Git branch, test the downloaded branch locally, review the pull request and merge into `main` to update GitHub Pages.
-
-## Content Sprint 5
-
-Adds the eight developed pages under **Marketplace Structure**:
-
-1. Understanding Taxonomy
-2. Global Taxonomy
-3. Option Types
-4. Option Values
-5. Prototypes
-6. Categories
-7. Brands
-8. Recommended Setup Sequence
+It also renames the site to **Marketplacer Operator Onboarding Hub**, updates Home page onboarding and support guidance, and adds selected official Marketplacer illustrations.
