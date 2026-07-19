@@ -1,6 +1,6 @@
 # Marketplacer Operator Onboarding Hub
 
-This static prototype contains developed Operator guidance for Content Sprints 1 through 10, plus approved enhancements to the Commercials and Product and Catalogue sections.
+This static prototype contains developed Operator guidance for Content Sprints 1 through 11, plus approved enhancements to the Commercials and Product and Catalogue sections.
 
 ## Developed sections
 
@@ -15,26 +15,29 @@ This static prototype contains developed Operator guidance for Content Sprints 1
 9. Shipping, Orders and Fulfilment
 10. Cancellations, Returns and Refunds
 11. Reporting, Performance and Marketplace Operations
+12. Integrations and Data Flow
 
-The remaining navigation sections retain representative content or placeholders for later sprints.
+Testing and Go-Live and Resources and Support retain representative content or placeholders for later sprints.
 
-## Sprint 10 additions
+## Sprint 11 additions
 
-- Operator Dashboard
-- Sales Reporting
-- Seller Performance Reporting
-- Catalogue Reporting
-- Finance Reporting
-- Daily Marketplace Operations
-- Weekly and Monthly Operations
-- Reporting definitions for Orders, Seller Invoices, Line Items, financial dates and transaction grain
-- Seller SLA, catalogue quality, remittance, reconciliation and operating-cadence guidance
+- Integration Architecture
+- APIs
+- Webhooks
+- Source-of-Truth Planning
+- Integration Troubleshooting
+- Detailed guidance for system boundaries, data flow, identifiers, authentication, scopes, retries, duplicate prevention, Webhook security, event ordering, reconciliation, troubleshooting and Support escalation
 
-## Commercials and catalogue enhancements
+## Product and Catalogue revision
 
-- Added the clickable **Promotions and Campaign Management** page under Commercials, Tax and Marketplace Finance
-- Expanded **Golden Records and Central Product Database** with Golden Product Settings, source governance, Active and Draft status, barcode controls, auto-create and auto-link behaviour, backfill, MConnect, AI-assisted matching, CPD operations, buy-box responsibility, merges, deletion and troubleshooting
-- Clarified that Golden Records group equivalent Seller offers while buy-box ranking remains an Operator storefront or orchestration responsibility
+- Replaced the existing **MConnect** page with one authoritative 30-section guide under Product and Catalogue Management
+- Added connector selection, Seller and Operator responsibilities, product scope, Category source, field ownership, price, inventory, Seller Invoice and fulfilment synchronisation, supported cancellation and return flows, monitoring, single-record recovery, fatal failures, change control, offboarding and end-to-end testing
+- Removed the duplicate MConnect Integrations submenu from Integrations and Data Flow
+
+## Previous enhancements
+
+- Added **Promotions and Campaign Management** under Commercials, Tax and Marketplace Finance
+- Expanded **Golden Records and Central Product Database**, including explicit Operator responsibility for buy-box ranking in the storefront or orchestration layer
 
 ## Open locally
 
@@ -45,7 +48,7 @@ Open `index.html` in a modern browser. No build step or database is required.
 - `index.html` application shell
 - `css/styles.css` responsive visual system
 - `js/app.js` navigation and interface behaviour
-- `js/content-sprint-1.js` through `js/content-sprint-10.js` developed content
+- `js/content-sprint-1.js` through `js/content-sprint-11.js` developed content
 - `assets/` Marketplacer logos, favicons and illustrations
 
 ## Typography
