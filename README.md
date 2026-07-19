@@ -1,6 +1,6 @@
 # Marketplacer Operator Onboarding Hub
 
-This static prototype contains developed operator guidance for Content Sprints 1 through 8.
+This static prototype contains developed Operator guidance for Content Sprints 1 through 9.
 
 ## Developed sections
 
@@ -13,21 +13,22 @@ This static prototype contains developed operator guidance for Content Sprints 1
 7. Seller Strategy and Onboarding
 8. Product and Catalogue Management
 9. Shipping, Orders and Fulfilment
+10. Cancellations, Returns and Refunds
 
 The remaining navigation sections retain representative content or placeholders for later sprints.
 
-## Sprint 8 additions
+## Sprint 9 additions
 
-- Shipping Strategy
-- Shipping Rules
-- Shipping Carriers and Tracking
-- Order Architecture
-- Order Lifecycle
-- Fulfilment and Dispatch
-- Order Exceptions
-- Additional Charges Invoices
-- Test the Order and Fulfilment Flow
-- Shipping section illustration and reusable transaction-structure styling
+- Refund Foundations
+- Refund Configuration
+- Cancellation Workflow
+- Return Workflow
+- Refund Statuses
+- Refund Financial Adjustments
+- Refund Disputes and Exceptions
+- Refund Integrations
+- Detailed remittance effects, including remittance delays, nightly processing, schedules and post-payment refund recovery
+- Operator guidance for Only adjust remittance, payment reconciliation, disputes and integrated workflows
 
 ## Open locally
 
@@ -38,7 +39,7 @@ Open `index.html` in a modern browser. No build step or database is required.
 - `index.html` application shell
 - `css/styles.css` responsive visual system
 - `js/app.js` navigation and interface behaviour
-- `js/content-sprint-1.js` through `js/content-sprint-8.js` developed content
+- `js/content-sprint-1.js` through `js/content-sprint-9.js` developed content
 - `assets/` Marketplacer logos, favicons and illustrations
 
 ## Typography
