@@ -1,6 +1,6 @@
 # Marketplacer Operator Onboarding Hub
 
-This static prototype contains developed Operator guidance for Content Sprints 1 through 10.
+This static prototype contains developed Operator guidance for Content Sprints 1 through 10, plus approved enhancements to the Commercials and Product and Catalogue sections.
 
 ## Developed sections
 
@@ -29,6 +29,12 @@ The remaining navigation sections retain representative content or placeholders 
 - Weekly and Monthly Operations
 - Reporting definitions for Orders, Seller Invoices, Line Items, financial dates and transaction grain
 - Seller SLA, catalogue quality, remittance, reconciliation and operating-cadence guidance
+
+## Commercials and catalogue enhancements
+
+- Added the clickable **Promotions and Campaign Management** page under Commercials, Tax and Marketplace Finance
+- Expanded **Golden Records and Central Product Database** with Golden Product Settings, source governance, Active and Draft status, barcode controls, auto-create and auto-link behaviour, backfill, MConnect, AI-assisted matching, CPD operations, buy-box responsibility, merges, deletion and troubleshooting
+- Clarified that Golden Records group equivalent Seller offers while buy-box ranking remains an Operator storefront or orchestration responsibility
 
 ## Open locally
 
