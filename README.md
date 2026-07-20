@@ -25,9 +25,11 @@ This static Hub contains developed Operator guidance for Content Sprints 1 throu
 - Training Resources
 - Seller Resources
 - Marketplacer Resources
+- Marketplacer Services
 - Getting Support
 - Downloadable Operator implementation, Seller onboarding, testing, launch and training templates
 - Current Marketplacer Help Center, Developer Documentation, Changelog, Marketplacer Status, Seller Community and strategy links
+- Operator-facing discovery guidance for Expert Services and Seller Relationship Management
 - Support routing, issue classification, evidence collection, incident handling and copyable request templates
 - Operator Portal and Seller Portal walkthrough libraries
 - Starter content in core workbooks and clear start guidance in event-driven logs
