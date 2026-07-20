@@ -2718,3 +2718,14 @@ h1 {
   .service-signal-grid,
   .service-brief-grid { grid-template-columns: 1fr; }
 }
+
+/* Marketplacer Services: two contact routes after removing the unrelated Support card. */
+.service-contact-routes.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 760px) {
+  .service-contact-routes.two-up {
+    grid-template-columns: 1fr;
+  }
+}
