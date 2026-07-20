@@ -1,6 +1,6 @@
 # Marketplacer Operator Onboarding Hub
 
-This static prototype contains developed Operator guidance for Content Sprints 1 through 12, plus approved cross-sprint enhancements to wholesale pricing governance, promotions, Orders, refunds, reporting and integrations.
+This static Hub contains developed Operator guidance for Content Sprints 1 through 13, plus reusable implementation, Seller, testing, launch and training resources.
 
 ## Developed sections
 
@@ -17,8 +17,21 @@ This static prototype contains developed Operator guidance for Content Sprints 1
 11. Reporting, Performance and Marketplace Operations
 12. Integrations and Data Flow
 13. Testing and Go-Live
+14. Resources and Support
 
-Resources and Support retains representative content or placeholders for a later sprint.
+## Sprint 13 additions
+
+- Operator Resources
+- Training Resources
+- Seller Resources
+- Marketplacer Resources
+- Getting Support
+- Downloadable Operator implementation, Seller onboarding, testing, launch and training templates
+- Current Marketplacer Help Center, Developer Documentation, Changelog, Marketplacer Status, Seller Community and strategy links
+- Support routing, issue classification, evidence collection, incident handling and copyable request templates
+- Operator Portal and Seller Portal walkthrough libraries
+- Starter content in core workbooks and clear start guidance in event-driven logs
+- Resource ownership, versioning, privacy and maintenance guidance
 
 ## Sprint 12 additions
 
@@ -29,49 +42,23 @@ Resources and Support retains representative content or placeholders for a later
 - Seller Launch Readiness
 - Production Readiness
 - Go-Live
-- Controlled Sandbox and Production testing guidance, evidence, defect and exit criteria
-- Commission and wholesale test coverage across pricing, promotions, Orders, refunds, remittance and reporting
-- Soft launch, hypercare, first-transaction monitoring, incident response and transition to business as usual
-
-## Cross-sprint wholesale pricing revision
-
-- Clarified that the Operator controls or approves the customer-facing website retail price for wholesale products
-- Clarified that Wholesale Price is the Seller entitlement basis and commission does not normally apply
-- Clarified that Seller RRP is reference only and may differ from the website retail price
-- Clarified that wholesale promotional price is a temporary supplier cost and does not automatically change the customer Sale price
-- Added integration overwrite controls, model-specific refund recovery, finance reporting and end-to-end testing
-
-## Sprint 11 additions
-
-- Integration Architecture
-- APIs
-- Webhooks
-- Source-of-Truth Planning
-- Integration Troubleshooting
-- Detailed guidance for system boundaries, data flow, identifiers, authentication, scopes, retries, duplicate prevention, Webhook security, event ordering, reconciliation, troubleshooting and Support escalation
-
-## Product and Catalogue revision
-
-- Replaced the existing **MConnect** page with one authoritative 30-section guide under Product and Catalogue Management
-- Added connector selection, Seller and Operator responsibilities, product scope, Category source, field ownership, price, inventory, Seller Invoice and fulfilment synchronisation, supported cancellation and return flows, monitoring, single-record recovery, fatal failures, change control, offboarding and end-to-end testing
-- Removed the duplicate MConnect Integrations submenu from Integrations and Data Flow
-
-## Previous enhancements
-
-- Added **Promotions and Campaign Management** under Commercials, Tax and Marketplace Finance
-- Expanded **Golden Records and Central Product Database**, including explicit Operator responsibility for buy-box ranking in the storefront or orchestration layer
 
 ## Open locally
 
-Open `index.html` in a modern browser. No build step or database is required.
+Open `index.html` in a modern browser. No build step or database is required. Download links work when the complete folder structure is retained.
 
 ## Structure
 
 - `index.html` application shell
 - `css/styles.css` responsive visual system
 - `js/app.js` navigation and interface behaviour
-- `js/content-sprint-1.js` through `js/content-sprint-12.js` developed content
+- `js/content-sprint-1.js` through `js/content-sprint-13.js` developed content
 - `assets/` Marketplacer logos, favicons and illustrations
+- `resources/` reusable DOCX and XLSX templates grouped by Operator, Seller, testing, launch and training purpose
+
+## Resource handling
+
+Copy templates into the Operator’s approved project workspace before use. Do not store passwords, API secrets, MFA recovery codes, bank credentials, unrestricted Production exports or unnecessary personal information in the public Hub or working templates.
 
 ## Typography
 
